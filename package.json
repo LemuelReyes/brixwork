@@ -1,0 +1,26 @@
+{
+  "name": "brixwork",
+  "version": "1.0.0",
+  "description": "single web page for real estate agent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LemuelReyes/brixwork.git"
+  },
+  "keywords": [
+    "brixwork",
+    "real",
+    "estate",
+    "digital",
+    "agency"
+  ],
+  "author": "Lemuel Reyes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LemuelReyes/brixwork/issues"
+  },
+  "homepage": "https://github.com/LemuelReyes/brixwork#readme"
+}
