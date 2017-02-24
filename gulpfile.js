@@ -47,9 +47,9 @@ gulp.task('serve', function(){
 // IMAGE TASK (compress and optimize images automatically)
 
 gulp.task('image', function(){
-    gulp.src('./img/*')
+    gulp.src('./css/images/*')
     .pipe(imagemin())
-    .pipe(gulp.dest('./build/img'));
+    .pipe(gulp.dest('./build/images'));
 });
 
 // SCRIPTS TASK
