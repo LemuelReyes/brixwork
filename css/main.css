@@ -64,28 +64,26 @@ table {
 .house-burnaby {
   background-image: url("../css/images/house-burnaby.jpg"); }
 
-.hero-text-container {
-  background-color: rgba(65, 73, 78, 0.7);
-  color: white;
-  position: absolute;
-  top: 50vh;
-  width: 100vw;
-  z-index: 2;
-  padding: 1em 0em;
+.hero-container {
+  height: 100vh;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
-      align-items: center; }
-  @media (min-width: 720px) {
-    .hero-text-container {
-      padding: 2em 0em 8.3em 0em; } }
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  color: white;
+  background-color: rgba(34, 58, 46, 0.28);
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0; }
 
 .main-text {
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  z-index: 3; }
   @media (min-width: 720px) {
     .main-text {
       font-size: 4em; } }
@@ -94,17 +92,16 @@ table {
       font-size: 6em; } }
 
 .sub-text {
+  font-size: 1.8em;
   width: 70%;
-  padding-left: 5vw; }
+  z-index: 3; }
   @media (min-width: 720px) {
     .sub-text {
       width: 81%;
-      font-size: 2.1em;
-      padding-left: 10vw; } }
+      font-size: 2.1em; } }
   @media (min-width: 1080px) {
     .sub-text {
-      font-size: 2.6em;
-      padding-left: 10vw; } }
+      font-size: 2.6em; } }
 
 body {
   font-family: 'Roboto', sans-serif, arial;
@@ -124,36 +121,36 @@ body {
     color: white;
     font-size: 3em; }
 
+.bx-wrapper {
+  position: absolute;
+  top: 0; }
+
 .about-img-background {
-  background-image: url("../css/images/realestate.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../css/images/realestate.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh; }
-  @media (min-width: 720px) {
-    .about-img-background {
-      background-position: top; } }
-
-.dark-overlay {
-  background-color: rgba(65, 73, 78, 0.7);
-  height: 50vh;
-  position: relative;
-  top: 50%;
+  height: 100vh;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
-  -ms-flex-align: start;
-      align-items: flex-start; }
-  .dark-overlay p {
+  -ms-flex-align: center;
+      align-items: center; }
+  @media (min-width: 720px) {
+    .about-img-background {
+      background-position: top; } }
+  .about-img-background p {
+    width: 90vw;
+    line-height: 2em;
     color: white;
     padding: 3em 1em 0 1em;
     font-size: 1.6em; }
     @media (min-width: 720px) {
-      .dark-overlay p {
+      .about-img-background p {
         font-size: 2em; } }
     @media (min-width: 1080px) {
-      .dark-overlay p {
+      .about-img-background p {
         font-size: 4.5vh; } }
 
 .contact-section {

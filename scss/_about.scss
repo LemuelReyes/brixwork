@@ -1,35 +1,30 @@
 @import "media-queries";
 
 .about-img-background {
-  background-image: url('../css/images/realestate.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url('../css/images/realestate.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   @include tablet {
     background-position: top;
   }
-}
 
-.dark-overlay {
-  background-color: rgba(65, 73, 78, 0.7);
-  height: 50vh;
-  position: relative;
-  top: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-
-  p {
-    color: white;
-    padding: 3em 1em 0 1em;
-    font-size: 1.6em;
-    @include tablet {
-      font-size: 2em;
-    }
-    @include desktop {
-      font-size: 4.5vh;
+p {
+  width: 90vw;
+  line-height: 2em;
+  color: white;
+  padding: 3em 1em 0 1em;
+  font-size: 1.6em;
+  @include tablet {
+    font-size: 2em;
+  }
+  @include desktop {
+    font-size: 4.5vh;
     }
   }
 }
