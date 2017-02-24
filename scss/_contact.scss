@@ -15,6 +15,9 @@ input {
 textarea {
   height: 15em;
   padding-top: 50%;
+  @include desktop {
+    padding-top: 30%;
+  }
 }
 button {
   width: 80vw;

@@ -177,6 +177,9 @@ body {
   .contact-section textarea {
     height: 15em;
     padding-top: 50%; }
+    @media (min-width: 1080px) {
+      .contact-section textarea {
+        padding-top: 30%; } }
   .contact-section button {
     width: 80vw;
     height: 2em;
