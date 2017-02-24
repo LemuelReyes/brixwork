@@ -5,24 +5,26 @@
   width: 100vw;
   background-position: 50% 50%;
 }
-.motorcycle {
-  background-image: url('../css/images/motorcycle.jpg');
+.house-northshore {
+  background-image: url('../css/images/house-northshore.jpg');
 }
-.fab {
-  background-image: url('../css/images/fab.jpg');
+.house-surrey {
+  background-image: url('../css/images/house-surrey.jpg');
 }
-.playing {
-  background-image: url('../css/images/playing.jpg');
+.house-langley {
+  background-image: url('../css/images/house-langley.jpg');
 }
-.diving {
-  background-image: url('../css/images/diving.jpg');
+.house-burnaby {
+  background-image: url('../css/images/house-burnaby.jpg');
 }
 .hero-text-container{
-  color: black;
+  background-color: rgba(65, 73, 78, 0.7);
+  color: white;
   position: absolute;
   top: 50vh;
   width: 100vw;
   z-index: 2;
+  padding: 1em 0em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,4 +34,7 @@
   text-transform: capitalize;
 }
 .sub-text {
+  width: 70%;
+  position: relative;
+  left: 0.7em;
 }
