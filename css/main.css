@@ -105,21 +105,27 @@ body {
     color: white;
     font-size: 3em; }
 
+.container {
+  background-color: black; }
+
 .navbar {
   margin-bottom: 0px !important;
   border: none !important; }
 
 .navbar-collapse {
-  border-top: none; }
+  border-color: none; }
 
 .navbar-nav {
   margin-top: 0; }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: black !important; }
 
 .about-img-background {
   background-image: url("../css/images/realestate.jpg");
   background-position: 50% 50%;
   background-size: cover;
-  background-attachment: scroll;
+  background-attachment: fixed;
   height: 100vh; }
 
 .dark-overlay {
@@ -139,6 +145,8 @@ body {
     font-size: 1.6em; }
 
 .contact-section {
+  background-image: url("../css/images/asanoha.png");
+  background-attachment: fixed;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -147,17 +155,17 @@ body {
       align-items: center;
   -ms-flex-direction: column;
       flex-direction: column;
-  font-size: 2em; }
+  font-size: 1.6em; }
   .contact-section div {
     margin-top: 2em; }
   .contact-section input {
-    height: 3em; }
+    height: 2em; }
   .contact-section textarea {
-    height: 20em;
+    height: 15em;
     padding-top: 50%; }
   .contact-section button {
     width: 80vw;
-    height: 3em;
+    height: 2em;
     margin-bottom: 4em; }
 
 .box-style {
@@ -169,8 +177,8 @@ body {
 footer {
   background-color: black;
   height: 25em;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-flexbox !important;
+  display: flex !important;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;

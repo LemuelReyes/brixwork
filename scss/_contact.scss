@@ -1,29 +1,27 @@
-.contact-banner {
-
-}
 .contact-section {
-
+background-image: url('../css/images/asanoha.png');
+background-attachment: fixed;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-font-size: 2em;
+font-size: 1.6em;
 
 div {
   margin-top: 2em;
 }
 
 input {
-  height: 3em;
+  height: 2em;
 }
 
 textarea {
-  height: 20em;
+  height: 15em;
   padding-top: 50%;
 }
 button {
   width: 80vw;
-  height: 3em;
+  height: 2em;
   margin-bottom: 4em;
 }
 }
