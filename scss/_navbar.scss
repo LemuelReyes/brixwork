@@ -1,19 +1,18 @@
-// .container {
-//   background-color: black;
-//   // margin: 0em 0em 0em 0em !important;
-//   width: 100vw !important;
-// }
-// .navbar {
-//   margin-bottom: 0px !important;
-//   border: none !important;
-// }
-// .navbar-collapse{
-//   border-color: none;
-// }
-// .navbar-nav {
-//   margin-top: 0;
-// }
-//
-// .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-//     border-color: black !important;
-// }
+.container {
+  background-color: black;
+}
+.navbar {
+  margin-bottom: 0px !important;
+  border: none !important;
+}
+.navbar-collapse{
+  border-color: none;
+  border-top-width: 0;
+}
+.navbar-nav {
+  margin-top: 0;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: black !important;
+}

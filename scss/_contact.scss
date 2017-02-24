@@ -23,6 +23,12 @@ button {
   width: 80vw;
   height: 2em;
   margin-bottom: 4em;
+  @include tablet {
+    width: 50vw;
+  }
+  @include desktop {
+    width: 25vw;
+  }
 }
 }
 
@@ -31,4 +37,7 @@ button {
   border-radius: 3%;
   border: 0.5px grey solid;
   text-align: center;
+  @include tablet {
+    width: 50vw;
+  }
 }

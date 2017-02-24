@@ -124,6 +124,23 @@ body {
     color: white;
     font-size: 3em; }
 
+.container {
+  background-color: black; }
+
+.navbar {
+  margin-bottom: 0px !important;
+  border: none !important; }
+
+.navbar-collapse {
+  border-color: none;
+  border-top-width: 0; }
+
+.navbar-nav {
+  margin-top: 0; }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: black !important; }
+
 .about-img-background {
   background-image: url("../css/images/realestate.jpg");
   background-position: 50% 50%;
@@ -179,12 +196,21 @@ body {
     width: 80vw;
     height: 2em;
     margin-bottom: 4em; }
+    @media (min-width: 720px) {
+      .contact-section button {
+        width: 50vw; } }
+    @media (min-width: 1080px) {
+      .contact-section button {
+        width: 25vw; } }
 
 .box-style {
   width: 80vw;
   border-radius: 3%;
   border: 0.5px grey solid;
   text-align: center; }
+  @media (min-width: 720px) {
+    .box-style {
+      width: 50vw; } }
 
 footer {
   background-color: black;
