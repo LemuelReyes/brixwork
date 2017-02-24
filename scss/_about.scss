@@ -3,7 +3,7 @@
 .about-img-background {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
   url('../css/images/realestate.jpg');
-  background-position: 50% 50%;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
@@ -11,8 +11,12 @@
   justify-content: center;
   align-items: center;
   @include tablet {
-    background-position: top;
+    background-position: 40% 10%;
   }
+  @include desktop {
+    background-position: 20% 10%;
+  }
+
 p {
   width: 90vw;
   line-height: 2em;

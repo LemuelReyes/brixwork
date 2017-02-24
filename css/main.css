@@ -129,7 +129,7 @@ body {
 
 .about-img-background {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../css/images/realestate.jpg");
-  background-position: 50% 50%;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
@@ -141,7 +141,10 @@ body {
       align-items: center; }
   @media (min-width: 720px) {
     .about-img-background {
-      background-position: top; } }
+      background-position: 40% 10%; } }
+  @media (min-width: 1080px) {
+    .about-img-background {
+      background-position: 20% 10%; } }
   .about-img-background p {
     width: 90vw;
     line-height: 2em;

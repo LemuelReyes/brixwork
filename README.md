@@ -18,3 +18,6 @@
 - 480px (mobile)
 - 720px (tablet)
 - 1080px (desktop+)
+
+##Additional info:
+- HTML validated 
