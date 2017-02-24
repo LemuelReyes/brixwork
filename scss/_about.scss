@@ -1,9 +1,15 @@
+@import "media-queries";
+
 .about-img-background {
   background-image: url('../css/images/realestate.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
+
+  @include tablet {
+    background-position: top;
+  }
 }
 
 .dark-overlay {
@@ -19,5 +25,8 @@
     color: white;
     padding: 3em 1em 0 1em;
     font-size: 1.6em;
+    @include tablet {
+      font-size: 2em;
+    }
   }
 }
