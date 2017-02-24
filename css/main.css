@@ -83,7 +83,7 @@ table {
   left: 0; }
 
 .main-text {
-  text-transform: capitalize;
+  text-transform: uppercase;
   z-index: 3; }
   @media (min-width: 720px) {
     .main-text {

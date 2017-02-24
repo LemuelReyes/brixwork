@@ -20,4 +20,5 @@
 - 1080px (desktop+)
 
 ##Additional info:
-- HTML validated 
+- HTML validated
+- CSS validated
