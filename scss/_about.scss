@@ -28,5 +28,8 @@
     @include tablet {
       font-size: 2em;
     }
+    @include desktop {
+      font-size: 4.5vh;
+    }
   }
 }

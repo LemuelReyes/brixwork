@@ -33,7 +33,7 @@
   align-items: center;
 
   @include tablet {
-     padding: 1em 0em 8.3em 0em;
+     padding: 2em 0em 8.3em 0em;
   }
 }
 .main-text {
@@ -41,15 +41,24 @@
   @include tablet {
     font-size: 4em;
   }
+  @include desktop {
+    font-size: 6em;
+  }
 }
 .sub-text {
   width: 70%;
-  position: relative;
-  left: 0.7em;
-
+  padding-left: 5vw;
+  // position: relative;
+  // left: 1%;
   @include tablet {
     width: 81%;
     font-size: 2.1em;
-    left: 2.3em;
+    padding-left: 10vw;
+    // left: 9.8%;
+  }
+  @include desktop {
+    font-size: 2.6em;
+    padding-left: 10vw;
+    // left: 10%;
   }
 }

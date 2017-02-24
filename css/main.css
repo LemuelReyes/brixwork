@@ -82,26 +82,34 @@ table {
       align-items: center; }
   @media (min-width: 720px) {
     .hero-text-container {
-      padding: 1em 0em 8.3em 0em; } }
+      padding: 2em 0em 8.3em 0em; } }
 
 .main-text {
   text-transform: capitalize; }
   @media (min-width: 720px) {
     .main-text {
       font-size: 4em; } }
+  @media (min-width: 1080px) {
+    .main-text {
+      font-size: 6em; } }
 
 .sub-text {
   width: 70%;
-  position: relative;
-  left: 0.7em; }
+  padding-left: 5vw; }
   @media (min-width: 720px) {
     .sub-text {
       width: 81%;
       font-size: 2.1em;
-      left: 2.3em; } }
+      padding-left: 10vw; } }
+  @media (min-width: 1080px) {
+    .sub-text {
+      font-size: 2.6em;
+      padding-left: 10vw; } }
 
 body {
-  font-family: 'Roboto', sans-serif, arial; }
+  font-family: 'Roboto', sans-serif, arial;
+  max-width: 100%;
+  overflow-x: hidden; }
 
 .banner {
   background-color: black;
@@ -115,22 +123,6 @@ body {
   .banner h2 {
     color: white;
     font-size: 3em; }
-
-.container {
-  background-color: black; }
-
-.navbar {
-  margin-bottom: 0px !important;
-  border: none !important; }
-
-.navbar-collapse {
-  border-color: none; }
-
-.navbar-nav {
-  margin-top: 0; }
-
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-  border-color: black !important; }
 
 .about-img-background {
   background-image: url("../css/images/realestate.jpg");
@@ -160,6 +152,9 @@ body {
     @media (min-width: 720px) {
       .dark-overlay p {
         font-size: 2em; } }
+    @media (min-width: 1080px) {
+      .dark-overlay p {
+        font-size: 4.5vh; } }
 
 .contact-section {
   background-image: url("../css/images/asanoha.png");
