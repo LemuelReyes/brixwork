@@ -146,7 +146,7 @@ body {
     width: 90vw;
     line-height: 2em;
     color: white;
-    padding: 3em 1em 0 1em;
+    text-align: center;
     font-size: 1.6em; }
     @media (min-width: 720px) {
       .about-img-background p {
