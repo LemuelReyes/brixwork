@@ -6,7 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!-- jQuery -->
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.js"
+    integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    crossorigin="anonymous">
+  </script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- bxSlider CSS file -->
+  <link href="./css/jquery.bxslider.css" rel="stylesheet" />
+
   <title>Real Estate made easy.</title>
 </head>
 <body>
@@ -24,7 +34,7 @@
     </div> <!-- ends navbar-header div -->
 
     <div class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav navbar-right">
         <li class="active">
           <a href="">Home</a>
         </li>
@@ -39,15 +49,33 @@
   </div> <!-- ends container div -->
 </div> <!-- ends navbar div -->
 
-<script
-  src="https://code.jquery.com/jquery-3.1.1.js"
-  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
-  crossorigin="anonymous">
-</script>
+<div class="hero-container">
+  <ul class="bxslider">
+    <li><div class="motorcycle responsive-pics"></div></li>
+    <li><div class="fab responsive-pics"></div></li>
+    <li><div class="playing responsive-pics"></div></li>
+    <li><div class="diving responsive-pics"></div></li>
+  </ul>
+  <div class="hero-text-container">
+    <h1 class="main-text">real estate agent</h1>
+    <h2 class="sub-text">The stress of finding the right place for you. Consider it gone.</h2>
+  </div>
+</div>
 
+
+<!--  SCRIPTS -->
+
+<!-- bootstrap js file -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
 </script>
-
+<!-- bxSlider Javascript file -->
+<!-- <script src="./build/minjs/jquery.bxslider.min.js"></script> -->
+<script src="./build/minjs/jquery.bxslider.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('.bxslider').bxSlider();
+});
+</script>
 
 </body>
 </html>

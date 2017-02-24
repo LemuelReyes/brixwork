@@ -1,0 +1,35 @@
+.responsive-pics {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-position: 50% 50%;
+}
+.motorcycle {
+  background-image: url('../css/images/motorcycle.jpg');
+}
+.fab {
+  background-image: url('../css/images/fab.jpg');
+}
+.playing {
+  background-image: url('../css/images/playing.jpg');
+}
+.diving {
+  background-image: url('../css/images/diving.jpg');
+}
+.hero-text-container{
+  color: black;
+  position: absolute;
+  top: 50vh;
+  width: 100vw;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-text {
+  text-transform: capitalize;
+}
+.sub-text {
+}
