@@ -3,20 +3,17 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
-
 .banner {
   background-color: black;
   height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
-
   h2 {
     color: white;
     font-size: 3em;
   }
 }
-
 .bx-wrapper {
   position: absolute;
   top: 0;
