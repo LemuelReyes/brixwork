@@ -94,3 +94,39 @@ body {
 
 .navbar-nav {
   margin-top: 0; }
+
+.about-banner {
+  background-color: black;
+  height: 20vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+  .about-banner span {
+    color: white;
+    font-size: 3em; }
+
+.about-img-background {
+  background-image: url("../css/images/realestate.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 100vh; }
+
+.dark-overlay {
+  background-color: rgba(65, 73, 78, 0.7);
+  height: 50vh;
+  position: relative;
+  top: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: start;
+      align-items: flex-start; }
+  .dark-overlay p {
+    color: white;
+    padding: 3em 1em 0 1em;
+    font-size: 1.6em; }
