@@ -124,23 +124,6 @@ body {
     color: white;
     font-size: 3em; }
 
-.container {
-  background-color: black; }
-
-.navbar {
-  margin-bottom: 0px !important;
-  border: none !important; }
-
-.navbar-collapse {
-  border-color: none;
-  border-top-width: 0; }
-
-.navbar-nav {
-  margin-top: 0; }
-
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-  border-color: black !important; }
-
 .about-img-background {
   background-image: url("../css/images/realestate.jpg");
   background-position: 50% 50%;
