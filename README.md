@@ -8,9 +8,10 @@
 - Jquery
 - Bootstrap
 - Bxslider
-- Gulp task runners
+- Gulp task runners (browsersync, minify image, autprefixer, etc +)
 - Google fonts
 - Font awesome icons
+- Pixlr for downsizing image file sizes
 
 ##Breakpoints developed:
 

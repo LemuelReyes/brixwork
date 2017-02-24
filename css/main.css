@@ -66,6 +66,7 @@ table {
 
 .hero-container {
   height: 100vh;
+  width: 100vw;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -93,8 +94,9 @@ table {
 
 .sub-text {
   font-size: 1.8em;
-  width: 70%;
-  z-index: 3; }
+  z-index: 3;
+  width: 100vw;
+  text-align: center; }
   @media (min-width: 720px) {
     .sub-text {
       width: 81%;
